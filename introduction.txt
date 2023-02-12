@@ -1,0 +1,33 @@
+What is typescript?
+
+=> Typescript is a strongly typed programming language. It is a superset of Javascript. Typescript builds on top of Javascript.
+
+First, we write the TypeScript code in .ts files . Then, you compile the TypeScript code into plain JavaScript code using a TypeScript 
+compiler.
+
+As Typescript is a superset of Javascript, so all Javascript code is valid in typescript file
+
+Why to use typescript?
+=>
+- It avoids bugs during developent. We know that in Javascript there is no typechecking possible. The errors in Javascript
+    will occur only during runtime. But using typescript we can avoid this because. Typescript compiler will warn us about 
+    any error during development time only.
+
+- It increases developement speed. Because we're not always stuck in fixing the bugs. Using typescript we can write the code once and we 
+    do not have to worry about fixing errors again and again.
+
+- Typescript provides us many additional features like enums, interfaces etc.
+
+** Installation of typescript
+we can install typescript as an npm package 
+                                            `npm install typescript`
+                                            install globally as : `npm install -g typescript`
+
+
+How to run a typescript file?
+=>
+We cannot run a typescript file
+-> first we need to compile the typescript file using the command:
+                                                                    `tsc filename.ts`
+-> After compilation it will generate a Javascript file which we can run using the command:
+                                                                    `node filename`
